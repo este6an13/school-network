@@ -1,3 +1,5 @@
+# THIS SCRIPT PROCESSES THE TRANSFORMED DATASET TO REPLICATE CUMULATIVE MATRICES OF PAPER
+
 import igraph as ig
 import seaborn as sns
 import pandas as pd

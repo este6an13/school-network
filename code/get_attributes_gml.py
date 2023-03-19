@@ -1,3 +1,5 @@
+# THIS SCRIPT TRANSFORMS THE DATASET FROM THE PAPER TO ONE IN WHICH NODES HAS ATTRIBUTES
+
 import igraph as ig
 
 # mapping classrooms from french system to our system
