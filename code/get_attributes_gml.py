@@ -77,4 +77,9 @@ for node in g.vs:
 
 ig.write(g, "../results/DatasetS2_Attributes.gml", format="gml")
 
+# network of day 1 : to eliminate edges of less than 2 min in duration
+g = ig.Graph.Read_GML("../results/DatasetS1_Attributes.gml")
+g.delete_edges(g.es.select(duration_lt=120))
+ig.write(g, "../results/DatasetS1_Attributes_Minimized.gml", format="gml")
+
 
